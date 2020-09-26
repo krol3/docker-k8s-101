@@ -9,7 +9,10 @@ compose-ps:
 
 compose-stop:
 	docker-compose stop
-	
+
+compose-down:
+	docker-compose down
+
 build:
 	docker build .
 
